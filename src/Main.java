@@ -11,10 +11,13 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         var scanner = new Scanner(System.in);
+
         System.out.println(MENSAGEM_NOME);
         var nome = scanner.next();
+
         System.out.println(MENSAGEM_IDADE);
         var idade = scanner.nextInt();
+
         System.out.printf("Ola %s, sua idade é %s. \n", nome, idade);
     }
 }
